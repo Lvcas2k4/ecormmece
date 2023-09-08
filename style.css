@@ -34,6 +34,13 @@ header{
     height: 1.5rem;
     width: 1.5rem;
 }
+#stillson{
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-top: 10px;
+    height: 10.5rem;
+    width: 10.5rem;
+}
 
 .main{
     gap: 3.5rem;
@@ -81,7 +88,7 @@ h2{
     text-align: right;
     color: #808080;
 
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-style: normal;
     font-weight: 500;
     line-height: 74%;
@@ -148,6 +155,9 @@ h2{
     font-weight: 500;
     line-height: 120%; 
 }
+.productCard{
+    padding: 10px;
+}
 .product-preview{
     background-color: #FFF;
     border-radius:  10px 10px 0px 0px; 
@@ -156,6 +166,10 @@ h2{
 }
 .info{
    width: 12.25rem;
+}
+.container-cards{
+    display: flex;
+    align-items: center;
 }
 .container-static{
     display: flex;
